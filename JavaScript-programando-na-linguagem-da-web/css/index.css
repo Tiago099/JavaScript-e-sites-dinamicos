@@ -8,7 +8,7 @@ body{
 }
 
 header{
-	background-color: #333;
+	background-color: rgb(49, 36, 36);
 	height: 3em;
 	color: #FFF;
 	margin-bottom: 1em;
@@ -103,10 +103,10 @@ button{
 	font-size: 1.2em;
 	cursor: pointer;
 	margin: 0;
-	margin-top: -3px;
+	
 	color: #fff;
 	background-color:#0c8cd3;
-	border-color: #04324c;
+	border-color: #111213;
 	width: 20%;
     display: block;
     clear: both;
