@@ -103,8 +103,8 @@ button{
 	font-size: 1.2em;
 	cursor: pointer;
 	margin: 0;
-	
-	color: #fff;
+	margin-top: -3px;
+    color: #fff;
 	background-color:#0c8cd3;
 	border-color: #111213;
 	width: 20%;
@@ -133,11 +133,16 @@ button[disabled=disabled], button:disabled {
 	border: 1px solid red;
 	
 }
+.paciente-invalido{
+    background-color:lightsalmon;
+}
 
 #mensagem-erro{
   color: blue
 
 }
-.paciente-invalido{
-    background-color:lightsalmon;
+
+.fadeOut{
+	opacity: 0;
+	transition: 0,5s;
 }
