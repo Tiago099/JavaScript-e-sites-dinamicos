@@ -8,7 +8,7 @@ body{
 }
 
 header{
-	background-color: rgb(49, 36, 36);
+	background-color: rgb(53, 40, 40);
 	height: 3em;
 	color: #FFF;
 	margin-bottom: 1em;
@@ -145,4 +145,18 @@ button[disabled=disabled], button:disabled {
 .fadeOut{
 	opacity: 0;
 	transition: 0,5s;
+}
+
+
+#filtrar-tabela{
+	width: 200px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+.invisivel{
+	display: none;
+}
+#mensagens-erro{
+	color: red;
 }
